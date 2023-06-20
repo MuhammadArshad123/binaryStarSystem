@@ -19,7 +19,7 @@ star2.mass = 3e30
 star2.p = -star1.p
 
 planet = sphere(pos=initial_pos_planet, radius=2e10, color=color.green, make_trail=True, trail_type="points", interval=10, retain=50)
-planet.mass = 3e10
+planet.mass = 1e24
 planet.p = initial_vel_planet * planet.mass
 
 #Time step
